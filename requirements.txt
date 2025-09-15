@@ -1,0 +1,11 @@
+torch
+torchvision
+albumentations
+scikit-learn
+matplotlib
+tqdm
+Pillow
+opencv-python
+pytorch-grad-cam
+imagehash
+scikit-image
