@@ -31,8 +31,8 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # Configuration settings
 SEED = 4030
-DATA_ROOT = '/content/drive/MyDrive/classification_task_2'
-SAVE_DIR = '/content/drive/MyDrive/Convnext/Sep5_1st'
+DATA_ROOT = '/content/drive/MyDrive/classification_task'
+SAVE_DIR = '/content/drive/MyDrive/Convnext_small'
 NUM_CLASSES = 4
 CLASSES = ['glioma', 'meningioma', 'pituitary', 'no_tumor']
 CLASS_TO_IDX = {cls: idx for idx, cls in enumerate(CLASSES)}
